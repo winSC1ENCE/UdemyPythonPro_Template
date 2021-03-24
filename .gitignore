@@ -2,16 +2,16 @@
 **/.vscode/
 **/**/.vscode/
 slides/
+lectures/
 .benchmarks/
 *.isorted
 *.zip
 reports/
 **/**/reports/
-
 **/**/site/
 
-Chapter1_Intro/
-
+*.md
+!.gitkeep
 *.png
 *.log
 *.pptx
