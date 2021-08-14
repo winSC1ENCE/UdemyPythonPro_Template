@@ -31,17 +31,18 @@ Das heißt, der Kurs richtet sich nicht an Programmier-Anfänger.
 
 ### Dieser Kurs besteht aus folgenden Themengebieten
 
-☑️ Die verschiedenen Arten, Python Code auszuführen
-☑️ Speicherverwaltung von Variablen in Python
-☑️ Der richtige Einsatz von Sequences und Iterables
-☑️ Funktionen, Decorators, Lambdas etc.
-☑️ Objektorientierung und Vererbung
-☑️ Exceptions und Error Handling
-☑️ Coding Guidelines und Good Practice Programmierung (PEP8)
-☑️ Debugging, Logging, Profiling, Timing und Unit Testing
-☑️ Erstellen eigener Packages und Dokumentationen
-☑️ Die Einbindung von Cython
-☑️ Multiprocessing und Multithreading in Python
+☑️Die verschiedenen Arten, Python Code auszuführen  
+☑️Speicherverwaltung von Variablen in Python  
+☑️Der richtige Einsatz von Container  
+☑️Funktionen, Decorators, Lambdas etc.  
+☑️Objektorientierung und Vererbung  
+☑️Exceptions und Error Handling  
+☑️Coding Guidelines und Good Practice Programmierung (PEP8)  
+☑️Debugging, Logging, Profiling, Timing und Unit Testing  
+☑️Erstellen eigener Packages und Dokumentationen  
+☑️Die Einbindung von Cython  
+☑️Multiprocessing und Multithreading in Python  
+☑️ Die Verwendung der Python C API  
 
 Werde noch heute ein Profi, in der Technologie von Morgen!
 Wir sehen uns im Kurs!
