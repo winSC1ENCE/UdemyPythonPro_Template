@@ -10,9 +10,7 @@ reports/
 **/**/reports/
 **/**/site/
 
-*.md
 !.gitkeep
-*.png
 *.log
 *.pptx
 TODO.txt
