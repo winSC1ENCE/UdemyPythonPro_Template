@@ -1,7 +1,12 @@
+pip
+setuptools
+
 # Libraries
 ipython
 ipykernel
 loguru
+numba
+Cython
 
 # Testing
 pytest
@@ -17,6 +22,7 @@ pylint
 mypy
 autopep8
 isort
+black
 
 # Documentation
 mkdocs
