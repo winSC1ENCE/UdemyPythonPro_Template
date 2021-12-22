@@ -5,7 +5,6 @@ setuptools
 ipython
 ipykernel
 loguru
-numba
 Cython
 
 # Testing
