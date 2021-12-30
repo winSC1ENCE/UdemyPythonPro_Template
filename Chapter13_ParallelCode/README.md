@@ -12,7 +12,6 @@ Multiprocessing (Parallel):
 - A new process is started independent from the first process
 - Starting a process is slower than starting a thread
 - Memory is not shared between processes
-- Mutexes not necessary (unless threading in the new process)
 
 ![img](./comparison.png)
 
@@ -20,3 +19,4 @@ Async:
 
 - Refers to the occurence of events independent of the main program flow
 - Waiting for an event from the outside of our program
+- Concurrent programming is the ability to release the CPU during waiting periods so that other tasks can use it
