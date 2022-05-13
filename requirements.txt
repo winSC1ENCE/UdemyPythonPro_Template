@@ -8,6 +8,8 @@ loguru
 Cython
 numba
 numpy
+snakeviz
+matplotlib
 
 # Testing
 pytest
@@ -23,7 +25,7 @@ pylint
 mypy
 autopep8
 isort
-black==21.4b0
+black
 
 # Documentation
 mkdocs
