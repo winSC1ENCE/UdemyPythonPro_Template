@@ -1,5 +1,5 @@
-'''Test code.
-'''
+"""Test code.
+"""
 from vector import Vector2D
 
 
@@ -10,8 +10,8 @@ def main():
     print(v2)
     v3 = v1 + v2
     print(v3)
-    print('Hello world')
+    print("Hello world")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

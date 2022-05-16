@@ -1,24 +1,16 @@
-# pip install loguru
-# Github: https://github.com/Delgan/loguru
 from pathlib import Path
 
-from loguru import logger
+from loguru import logger  # https://github.com/Delgan/loguru
 
-
-# DEBUG: Detailed debug information
-# INFO: Things working as intended
-# WARNING: Something unexpected happened
-# ERROR: The software cannot perform some function
-# CRITICAL: Program crashes for example
 
 # Setup the logger
-filepath = Path(__file__).parent.joinpath('log_loguru.log')
-logger.add(filepath, rotation='1 Week')
+filepath = Path(__file__).parent.joinpath("log_loguru.log")
+logger.add(filepath, rotation="1 Week")
 
 
 @logger.catch
 def divide_integers(a: int, b: int) -> float:
-    logger.debug(f'a={a}, b={b}')
+    logger.debug(f"a={a}, b={b}")
     result = a / b
     return result
 
@@ -28,5 +20,5 @@ def main():
         print(divide_integers(10, 0))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
