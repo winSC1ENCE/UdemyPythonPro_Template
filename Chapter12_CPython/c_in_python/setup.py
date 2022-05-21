@@ -1,11 +1,17 @@
-from distutils.core import setup, Extension
+from setuptools import Extension
+from setuptools import setup
 
 
 def main() -> None:
-    setup(name="math_cpython",
-          version="1.0.0",
-          description="CPython module in Python",
-          ext_modules=[Extension("math_cpython", ["mathmodule.c"])])
+    name = "math_cpython"
+    version = "1.0.0"
+    module = Extension(name, ["mathmodule.c"])
+
+    setup(
+        name=name,
+        version=version,
+        ext_modules=[module],
+    )
 
 
 if __name__ == "__main__":
