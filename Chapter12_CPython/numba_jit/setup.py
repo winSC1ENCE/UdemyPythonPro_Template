@@ -1,5 +1,6 @@
+from distutils.core import setup
+
 from math_numba import cc
-from setuptools import setup
 
 
 def main() -> None:
