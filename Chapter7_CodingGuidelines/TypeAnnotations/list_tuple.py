@@ -5,14 +5,15 @@ from typing import List
 from typing import Tuple
 from typing import Union
 
+
 Number = Union[int, float]
 
 
-def append_list(lst: List[Number], val: Number):
+def append_list(lst: List[Number], val: Number) -> None:
     lst.append(val)
 
 
-def print_3d_tuple(tpl: Tuple[Number, bool, str]):
+def print_3d_tuple(tpl: Tuple[Number, bool, str]) -> None:
     for val in tpl:
         print(val)
 
