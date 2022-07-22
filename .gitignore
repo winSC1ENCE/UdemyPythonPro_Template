@@ -132,3 +132,8 @@ venv.bak/
 .vscode
 *.code-workspace
 .history
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/UdemyPythonPro_Template.iml
+/.idea/vcs.xml
